@@ -14,7 +14,7 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      socket: socketIOClient('https://taha-chatapp.herokuapp.com/'),
+      socket: socketIOClient(),
     }
   }
 

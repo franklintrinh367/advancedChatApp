@@ -14,7 +14,7 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      socket: socketIOClient('/'),
+      socket: socketIOClient(process.env.PORT),
     }
   }
 

@@ -4,7 +4,8 @@
   "description": "advanced chat app - COMP3133 project",
   "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
+    "react": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
